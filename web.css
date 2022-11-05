@@ -1,0 +1,462 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Gemunu+Libre:wght@800&family=Lobster&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700&family=Silkscreen&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+nav {
+    height: 75px;
+    width: 100%;
+    /* background-color: white; */
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    /* margin-bottom: 5px; */
+    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+    /* background-color: black; */
+}
+
+.nav-item {
+    display: flex;
+    /* justify-content: right; */
+    justify-content: space-around;
+    /* justify-content: space-evenly; */
+    /* align-items: center; */
+    width: 100%;
+    font-size: 17px;
+    font-family: Montserrat;
+    text-transform: uppercase;
+    padding-left: 30px;
+    /* margin-left: 52%; */
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.logo-img {
+    width: 13%;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.nav-head {
+    background-image: url(../images/banner-56-scaled.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-blend-mode: color;
+    background-color: rgba(0, 0, 0, 0.353);
+    width: 100%;
+}
+
+
+/* .dot1
+{
+    height: 5px;
+    width: 5px;
+    display: block;
+    background: #ce1446;
+    border-radius: 50%;
+    transition: none;
+    cursor: pointer;
+    list-style: none;
+
+    margin-top: 2px;
+
+    margin-bottom: 2px;
+
+}
+.dot2
+{
+    height: 5px;
+    width: 5px;
+    display: block;
+    background: #ce1446;
+    border-radius: 50%;
+    transition: none;
+    cursor: pointer;
+    list-style: none;
+
+    margin-top: 2px;
+
+    margin-bottom: 2px;
+
+}
+.dot3
+{
+    height: 5px;
+    width: 5px;
+    display: block;
+    background: #ce1446;
+    border-radius: 50%;
+    transition: none;
+    cursor: pointer;
+    list-style: none;
+
+    margin-top: 2px;
+
+    margin-bottom: 2px;
+
+}
+.dot4
+{
+    height: 5px;
+    width: 5px;
+    display: block;
+    background: #ce1446;
+    border-radius: 50%;
+    transition: none;
+    cursor: pointer;
+    list-style: none;
+
+    margin-top: 2px;
+
+    margin-bottom: 2px;
+
+}
+.dot5
+{
+    height: 5px;
+    width: 5px;
+    display: block;
+    background: #ce1446;
+    border-radius: 50%;
+    transition: none;
+    cursor: pointer;
+    list-style: none;
+
+    margin-top: 2px;
+
+    margin-bottom: 2px;
+
+}
+.dot6
+{
+    height: 5px;
+    width: 5px;
+    display: block;
+    background: #ce1446;
+    border-radius: 50%;
+    transition: none;
+    cursor: pointer;
+    list-style: none;
+
+    margin-top: 2px;
+
+    margin-bottom: 2px;
+
+}
+.dot7
+{
+    height: 5px;
+    width: 5px;
+    display: block;
+    background: #ce1446;
+    border-radius: 50%;
+    transition: none;
+    cursor: pointer;
+    list-style: none;
+
+    margin-top: 2px;
+
+    margin-bottom: 2px;
+
+}
+.dot8
+{
+    height: 5px;
+    width: 5px;
+    display: block;
+    background: #ce1446;
+    border-radius: 50%;
+    transition: none;
+    cursor: pointer;
+    list-style: none;
+
+    margin-top: 2px;
+
+    margin-bottom: 2px;
+
+}
+.dot9
+{
+    height: 5px;
+    width: 5px;
+    display: block;
+    background: #ce1446;
+    border-radius: 50%;
+    transition: none;
+    cursor: pointer;
+    list-style: none;
+
+    margin-top: 2px;
+
+    margin-bottom: 2px;
+
+}
+.l_div
+{
+    margin-left: 4px;
+} */
+
+
+
+.head_h6 {
+    font-weight: 600;
+    margin: 0 0 10px;
+    display: inline-block;
+    color: #ce1446;
+    line-height: 28px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-top: 170px;
+}
+
+.head_h1 {
+
+    font-size: 86px;
+    font-weight: 900;
+    line-height: 1em;
+    color: #FFFFFF;
+    margin: 0px 0px 0px 0px;
+}
+
+.about6_sec {
+    background-color: #0C0B0B;
+    ;
+}
+
+.sec_2 {
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.about_img {
+    width: 100%;
+    height: auto;
+
+}
+
+.sec2h6 {
+    font-weight: 600;
+    margin: 0 0 10px;
+    display: inline-block;
+    color: #ce1446;
+    line-height: 28px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+}
+
+.sec2h4 {
+    color: #FFFFFF;
+    margin: 0px 0px 30px 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    position: relative;
+    font-size: 35px;
+    padding-top: 15px;
+}
+
+.hr1 {
+    display: inline-block;
+    border: #ce1446 2px solid;
+    width: 20px;
+    opacity: 1;
+    border-radius: 15px;
+}
+
+.hr2 {
+    display: inline-block;
+    border: #ce1446 2px solid;
+    width: 100px;
+    opacity: 1;
+    border-radius: 20px;
+}
+
+
+.sec2p1 {
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    padding-top: 40px;
+}
+
+.sec2h1 {
+    color: #CE1446;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 1em;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.sec2h5 {
+    color: #FFFFFF;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.clr1 {
+    padding-right: 40px !important;
+}
+
+.cll1 {
+    padding-left: 40px !important;
+}
+
+
+
+
+
+.sec3 {
+    background-color: #000000;
+}
+
+
+.sec3img1 {
+    width: 20%;
+    height: auto;
+    padding-top: 110px;
+    padding-left: 20px;
+}
+
+.sec3h4 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    padding-top: 25px;
+    padding-left: 20px;
+}
+
+.sec3p1 {
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    padding-top: 30px;
+    padding-bottom: 100px;
+    padding-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+.container {
+    margin-top: 20px;
+}
+
+/* Carousel Styles */
+.carousel-indicators .active {
+    background-color: #2980b9;
+}
+
+.carousel-inner img {
+    width: 100%;
+    max-height: 460px
+}
+
+.carousel-control {
+    width: 0;
+}
+
+.carousel-control.left,
+.carousel-control.right {
+	opacity: 1;
+	filter: alpha(opacity=100);
+	background-image: none;
+	background-repeat: no-repeat;
+	text-shadow: none;
+}
+
+.carousel-control.left span {
+	padding: 15px;
+}
+
+.carousel-control.right span {
+	padding: 15px;
+}
+
+.carousel-control .glyphicon-chevron-left, 
+.carousel-control .glyphicon-chevron-right, 
+.carousel-control .icon-prev, 
+.carousel-control .icon-next {
+	position: absolute;
+	top: 45%;
+	z-index: 5;
+	display: inline-block;
+}
+
+.carousel-control .glyphicon-chevron-left,
+.carousel-control .icon-prev {
+	left: 0;
+}
+
+.carousel-control .glyphicon-chevron-right,
+.carousel-control .icon-next {
+	right: 0;
+}
+
+.carousel-control.left span,
+.carousel-control.right span {
+	background-color: #000;
+}
+
+.carousel-control.left span:hover,
+.carousel-control.right span:hover {
+	opacity: .7;
+	filter: alpha(opacity=70);
+}
+
+/* Carousel Header Styles */
+.header-text {
+    position: absolute;
+    top: 20%;
+    left: 1.8%;
+    right: auto;
+    width: 96.66666666666666%;
+    color: #fff;
+}
+
+.header-text h2 {
+    font-size: 40px;
+}
+
+.header-text h2 span {
+    background-color: #2980b9;
+	padding: 10px;
+}
+
+.header-text h3 span {
+	background-color: #000;
+	padding: 15px;
+}
+
+.btn-min-block {
+    min-width: 170px;
+    line-height: 26px;
+}
+
+.btn-theme {
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid #fff;
+    margin-right: 15px;
+}
+
+.btn-theme:hover {
+    color: #000;
+    background-color: #fff;
+    border-color: #fff;
+}

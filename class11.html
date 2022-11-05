@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanuman:wght@400;900&family=IBM+Plex+Sans+Arabic:wght@500&family=Poppins:wght@400;500;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <!--bootstrap scripts  -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+      integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
+      crossorigin="anonymous"
+    ></script>
+    <title>class 11</title>
+  </head>
+  <style>
+    .box {
+      border: 1px solid black;
+    }
+    .main-heading {
+      color: #000033;
+      text-shadow: 0px 0px 0px rgb(0 0 0 / 30%);
+      margin: 10px 0px 25px 0px;
+      font-family: "Poppins", Sans-serif;
+      font-size: 42px;
+      font-weight: 900;
+      line-height: 52px;
+    }
+    .main-para {
+      font-family: "Fira Sans", Sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 28px;
+      margin: 0px 0px 15px 0px;
+    }
+    .main-button {
+      background-color: red;
+      color: #fff;
+      border: 1px solid;
+    }
+    .main-button:hover {
+      background-color: green;
+      color: #fff;
+      border: 1px solid;
+    }
+    .main-section {
+      background-color: #6e6e6e;
+      padding: 50px 0px;
+    }
+    .main-span {
+      font-size: 30px;
+      color: aqua;
+    }
+    .my-col {
+      border: 1px solid black;
+    }
+  </style>
+
+  <body>
+    <h1>bootstrap container</h1>
+    <div class="container">
+      <h1>hello world</h1>
+    </div>
+    <div class="container-fluid">
+      <h1>hello world</h1>
+    </div>
+
+    <div class="container box">
+      <h1 class="pt-3 pb-4">hello from box</h1>
+    </div>
+
+    <section class="main-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-4">
+            <img class="col-img" src="./images/col-img.png" alt="img" />
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-4">
+            <h1 class="main-heading">Welcome to the Indus Tomatos</h1>
+            <p class="main-para">
+              We, Indus Ketchup & Sauces Pvt. Limited have grown from a small
+              manufacturer of fruit and vegetable paste, pulp, juices sauces
+              plant into one of largest processing company of fruits and
+              vegetables products. We have perfected the art of producing the
+              freshest fruits, vegetables, pulp and concentrates by ensuring the
+              highest standards
+              <span class="main-span">of quality at every</span> step of the
+              production process. We are specialist of “Tomato, Guava, Mangoes,
+              Apple, Peach, Lemon, Orange, Red Grapes, Pineapple, Strawberry and
+              Pomegranate, we also source other best quality fruits to create
+              our pulps and concentrates, which are serving renowned food and
+              beverage businesses.
+            </p>
+            <button class="btn btn-danger main-button">Learn More</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <p class="lead">
+      This is a lead paragraph. It stands out from regular paragraphs.
+    </p>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-primary">
+      <div class="container">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- navbar end -->
+  </body>
+</html>

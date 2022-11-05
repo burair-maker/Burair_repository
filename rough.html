@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+  
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+nav {
+    height: 80px;
+    background-color: white;
+    /* background-color: orangered; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* margin-bottom: 5px; */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    /* background-color: black; */
+}
+
+.logo-img {
+    width: 23%;
+    height: 10%;
+    padding-left: 7%;
+}
+
+.nav-items {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 35%;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    padding: 12px;
+}
+
+.nav-items a:hover {
+    color: yellow;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #ff0000;
+    font-family: dm sans,sans-serif;
+    font-weight: 600;
+}
+
+.div-1 {
+    background-image: url(../image/head-p.jpeg);
+
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    background-blend-mode: color;
+    background-color: rgba(0, 0, 0, 0.298);
+}
+
+.a-1 {
+    padding-top: 20px;
+    padding-right: 44px;
+    padding-bottom: 20px;
+    padding-left: 44px;
+    font-family: "Fira Sans", Sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: capitalize;
+    background-color: #FF0000;
+    border-style: none;
+    border-color: #ff007a;
+    border-radius: 3px 3px 3px 3px;
+    color: white;
+    position: absolute;
+    bottom: 160px;
+    left: 72px;
+}
+
+.head-1 {
+    color: #ffffff;
+    font-family: "Fira Sans", Sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0px 0px 17px 0px;
+    position: absolute;
+    top: 240px;
+    left: 72px;
+}
+
+.head-2 {
+    color: #ffffff;
+    margin: 0px 0px 30px 0px;
+    font-family: "Poppins", Sans-serif;
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 75px;
+    position: absolute;
+    top: 278px;
+    left: 72px;
+}
+
+.head-3 {
+    color: #ffffff;
+    font-family: "Poppins", Sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    position: absolute;
+    top: 558px;
+    left: 72px;
+}
+
+
+.h1-c
+{
+    text-align: center;
+    color: #000033;
+    font-family: "Poppins", Sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+
+}
+
+.hr-1
+{
+    border: 1px solid red;
+    width: 25%;
+    margin: auto;
+}
+
+.head-4
+{
+    
+    color: #616161;
+    font-family: "Poppins", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+}
+
+.head-5
+{
+    color: #000033;
+    text-shadow: 0px 0px 0px rgb(0 0 0 / 30%);
+    margin: 10px 0px 25px 0px;
+    font-family: "Poppins", Sans-serif;
+    font-size: 42px;
+    font-weight: 900;
+    line-height: 52px;
+    margin-left: 80px;
+}
+
+.head-6
+{
+    color: #47465E;
+    font-weight: 700;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 16px;
+    margin-bottom: 15px;
+    margin-left: 80px;
+    line-height: 28px;
+}
+
+.img-1
+{
+    position: absolute;
+    top: 1190px;
+    right: 90px;
+}
+
+.a-2 {
+    padding-top: 20px;
+    padding-right: 44px;
+    padding-bottom: 20px;
+    padding-left: 44px;
+    font-family: "Fira Sans", Sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: capitalize;
+    background-color: #FF0000;
+    border-style: none;
+    border-color: #ff007a;
+    border-radius: 3px 3px 3px 3px;
+    color: white;
+    margin-left: 80px;
+}
+.f-1
+{
+    width: 35.5%;
+    margin-left: 77px;
+}
+
+.vision
+{
+    position: absolute;
+    top: 1800px;
+    left: 600px;
+}
+.bg
+{
+    background-image: url(../image//bg.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center left;
+    width: 100%;
+    height: 40vh;
+}
+</style>
+<body>
+
+
+  <div class="form-good">
+
+
+    <form>
+            
+<b>
+    <h3>Personal Details</h3>
+<label>First Name</label>
+<i class="fa fa-user" style="border:2px black solid ; margin: 0px;"></i>
+<input placeholder="First Name">
+<br><br>
+<label class="lsn">Last Name</label>
+<input placeholder="Last Name">
+
+<br><br>
+<label class="cty">Coutntry</label>
+<select name="Country">
+    <option value="indian">Pakistan </option>
+    <option value="nepali">India</option>
+    <option value="others">Others</option>
+  </select>
+  <br><br>
+<label class="usn">Username</label>
+<input type="text" placeholder="Username">
+<br><br>
+<label class="psw">Password</label>
+<input type="password" placeholder="Password">
+<br><br>
+<label>Confirm Password</label>
+<input type="password" placeholder="Confirm Password" class="csw">
+<br><br>
+<label class="eml">Email</label>
+<input type="email" placeholder="E-Mail Address">
+<br><br>
+<label class="cnt">Contact</label>
+<input type="number" placeholder="(639)">
+<br><br>
+<label class="adr">Address</label>
+<input placeholder="Enter Your Address">
+<br><br>
+<button>Submit</button>
+</b>
+
+    <!-- <input>
+    <br>
+    <input>
+    <br>
+    <input type="submit"> -->
+    </form>
+    </div> 
+
+
+
+
+
+
+
+
+
+
+
+    <nav>
+      <div class="logo">
+        <a href="./navbat.html">
+          <img src="./image/logo.png" alt="logo" class="logo-img" />
+        </a>
+      </div>
+      <div class="nav-items">
+        <a href="./navbat.html" target="_blank">Home</a>
+        <a href="./pages/service.html" target="_blank">Services</a>
+        <a href="./pages/contact.html" target="_blank">Contact</a>
+        <a href="" target="_blank">Process</a>
+        <a href="./pages/about.html" target="_blank">About</a>
+      </div>
+    </nav>
+    <div class="div-1">
+      <h1 class="head-1">let's Grow Your Hand</h1>
+      <h1 class="head-2">
+        we know the art of<br />producing the fresh<br />fruits and vegetable
+      </h1>
+      <h1 class="head-3">
+        We have perfected the art ofproducing the freshest fruits, vegetables,
+        pulp and<br />concentrates by ensuring the highest standards of quality
+      </h1>
+      <br /><br /><br />
+      <a href="https://www.youtube.com/" target="." class="a-1">Learn More</a>
+    </div>
+
+    <br /><br /><br /><br />
+
+    <h1 class="h1-c">About Our Company</h1>
+    <br />
+    <hr class="hr-1" />
+    <br />
+    <h1 class="head-4">
+      We have perfected the art of producing the freshest fruits, vegetables,
+      pulp and<br />concentrates by ensuring the highest standards of quality
+    </h1>
+    <br /><br /><br /><br /><br />
+    <h1 class="head-5">Welcome to the Indus<br />Tomatos</h1>
+
+    <h1 class="head-6">
+      We, Indus Ketchup & Sauces Pvt. Limited have grown from a small<br />
+      manufacturer of fruit and vegetable paste, pulp, juices sauces plant into
+      one<br />of largest processing company of fruits and vegetables
+      products.<br /><br />We have perfected the art of producing the freshest
+      fruits, vegetables, pulp<br />
+      and concentrates by ensuring the highest standards of quality at every
+      step of<br />the production process.<br /><br />We are specialist of
+      “Tomato, Guava, Mangoes, Apple, Peach, Lemon, Orange,<br />Red Grapes,
+      Pineapple, Strawberry and Pomegranate, we also source other<br />best
+      quality fruits to create our pulps and concentrates, which are serving<br />renowned
+      food and beverage businesses.
+    </h1>
+
+    <img src="./image/round-f.png" alt="round-fruits" class="img-1" />
+    <br /><br />
+    <a href="https://www.youtube.com/" target="." class="a-2">Learn More</a>
+    <br /><br /><br /><br /><br /><br /><br />
+    <div class="bg">
+      <img src="./image/f-1.png" alt="f-1" class="f-1" />
+    </div>
+    <div class="vision">
+      <h1 class="head-5">Our Vision</h1>
+      <h1 class="head-6">
+        It is the objective of Indus Ketchup and Sauce Pvt. Limited to
+        produce<br />and provide products and services of the highest quality
+        and to be<br />known as leader of quality products in the region.<br /><br />Our
+        goals aimed at the achievement of quality excellence and succeed<br />as
+        a profitable business. Dedication to quality is a way of life at our<br />Company,
+        so much so that it goes far beyond rhetorical slogans.
+      </h1>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
